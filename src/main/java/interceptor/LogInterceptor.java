@@ -10,7 +10,6 @@ public class LogInterceptor implements MethodInterceptor {
 
     @Override
     public Object invoke(final MethodInvocation invocation) throws Throwable {
-        System.out.println("lool");
         String className = invocation.getMethod().getDeclaringClass().getSimpleName();
         String methodName = invocation.getMethod().getName();
         Object[] args = invocation.getArguments();
