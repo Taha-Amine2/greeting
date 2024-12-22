@@ -5,9 +5,9 @@
     <title>JSP - Hello World</title>
 </head>
 <body>
-<h1><%= "Hello World!" %>
+<h1><%= "Utilisez /api/...." %>
 </h1>
 <br/>
-<a href="hello-servlet">Hello Servlet</a>
+<a href="api/greeting">Naviguez Vers /api/greeting pour tester</a>
 </body>
 </html>
